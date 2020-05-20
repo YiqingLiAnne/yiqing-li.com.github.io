@@ -1,0 +1,80 @@
+article{
+    width: 1140px;
+    margin-top: 80px;
+    text-align: justify;
+} 
+
+article .sidebar{
+    width: 250px;
+    float:left;
+    font-size: 14pt;
+    text-align: left;
+    position: fixed;
+}
+
+article .sidebar .profile{
+    width: 200px;
+    border: 4px solid rgba(151, 113, 113, 0.2);
+    border-radius: 100px;
+    margin-top: 70px;
+}
+
+article .sidebar h2{
+    font-size: 40pt;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+article .sidebar p{
+    padding: 20px 0;
+}
+
+article .sidebar ul{
+    list-style-type: disc;
+    padding: 0px 0;
+}
+  
+article .sidebar li{
+    margin: 15px;
+    /* padding: 20px; */
+}
+
+article .main{
+    float:right;
+    width: 800px;
+    margin: 20px;
+    /* border-left: 1px solid #aaa; */
+    font-size: 16pt;
+    line-height: 1.5em;
+}
+  
+article .main h2{
+    font-size: 24pt;
+    text-align: left;
+    margin-top: 30px;
+    padding:20px;
+    border-bottom: 2px solid rgb(212, 208, 208);
+    /* border-top: 1px solid rgb(212, 208, 208); */
+}
+  
+article .main p{
+    margin: 10px;
+    padding:10px;
+}
+  
+article .main .introduction img{
+    width:60%;
+    margin: 10px 20%;
+}
+  
+article .main ul{
+    padding-left: 30px;
+    list-style-type: circle;
+}
+  
+article .main li{
+    margin: 10px;
+    margin-bottom: 0;
+    padding:10px;
+    list-style-type: circle;
+}
