@@ -30,6 +30,6 @@ article .main .content .items li{
     width: 80%;
     margin: 20px auto;
     padding-left: 30px;
-    list-style-type: circle;
+    list-style-type: decimal;
 }
 

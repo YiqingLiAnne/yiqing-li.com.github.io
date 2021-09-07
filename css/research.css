@@ -12,6 +12,7 @@ article .main{
 }
 
 article .main .content h2{
+    font-weight: bold;
     font-size: 24pt;
     padding-left: 20px;
     text-align: left;

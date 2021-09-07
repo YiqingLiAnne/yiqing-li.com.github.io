@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/research.css">
     <title>Li Yiqing</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 </head>
 <body>
 <center>
@@ -23,30 +27,75 @@
 
     <article class="page-body clearfix">
         <div class="main">
-            <div class="content">
-                <h2 class="title">Projects</h2>
+            <div class="content">                
+                <h2 class="title">Methodology</h2>
+
                 <div class="items">
                     <div>
                         <h3 class="title">
-                            Machine learning optimization for greener transport vehicles and energy systems
+                            <span>Explorative Gradient Method (EGM)</span>
                         </h3>
+                        <img src="images/EGM.png">
                         <p>
-                            <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore deleniti sequi velit sed cumque ab inventore, accusamus optio aliquam, assumenda numquam, laboriosam quam labore sit! Odit nisi laboriosam quas, minus officiis facilis quibusdam. Unde corrupti veritatis, sunt repellat harum architecto nam esse dignissimos quasi voluptates rerum totam odio. Nam, dolorum! -->
-                        <!-- </p>
-                        <img src="images/1.jpg" alt="" class="test-img1">
-                        <p> -->
+                            This method is developed by 
+                                                        
+                            Explorative gradient method (EGM) is a novel optimization approach.
+                            The iterations alternate 
+                            between downhill simplex iteration as a robust gradient method
+                            and LHS/GA as the most explorative step.
+                            A distinguishing feature of EGM 
+                            is that it performs an ‘aggressive’ exploitation in one step (see the solid lines)
+                            and the arguably most optimal exploration in another step (see the dash lines). 
+                            Thus, both exploitation and exploration come with optimizing principles
+                            and with an a priori evaluation investment which is determined upfront.
+                        </p>
+                        <h3 class="title">
+                            <span>gradient-enriched Machine Learning Control (gMLC)</span>
+                        </h3>
+                        <img src="images/gMLC.png">
+                        <p>
+                            This mehod is developed by 
+                            <a href="https://www.cornejomaceda.com/" target="_blank">Y. Cornejo Maceda</a>, 
+                            Yiqing Li and friends. 
+                            See <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/stabilization-of-the-fluidic-pinball-with-gradientenriched-machine-learning-control/D112E47F261BD4C611D0CB94A0A3FF38" target="_blank">
+                                Journal of Fluid Mechanics, 917, A42</a><br>
+                        </p>
+                        <h3 class="title">
+                            <span>Bayesian optimization (BO)</span><br>
+                        </h3>
+                        <!-- <img src="images/gMLC.png"> -->
+                        <p>
+                            This method is developed by 
+                            <a href="https://ablanchard.mit.edu/" target="_blank">Antoine Blanchard</a> 
+                            & <a href="https://sandlab.mit.edu/index.php/people/11-web-articles/46-themistoklis-sapsis" target="_blank">Themis Sapsis</a>,
+                            from <a href="https://sandlab.mit.edu/" target="_blank">Stochastic Analysis and Nonlinear Dynamics (SAND) lab</a>.
+                            See <a href="https://www.sciencedirect.com/science/article/pii/S0021999120306756" target="_blank">Journal of Computational Physics 425, 109901 (2021)</a>.<br>
                         </p>
                     </div>
-
+                </div>
+                <h2 class="title">Configurations</h2>
+                <div class="items">
                     <div>
                         <h3 class="title">
-                            Vehicle drag optimization based on machine learning control
+                            Fluidic pinball
                         </h3>
+                        <img src="images/pinball_EGM.png">
                         <p>
-                            <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore deleniti sequi velit sed cumque ab inventore, accusamus optio aliquam, assumenda numquam, laboriosam quam labore sit! Odit nisi laboriosam quas, minus officiis facilis quibusdam. Unde corrupti veritatis, sunt repellat harum architecto nam esse dignissimos quasi voluptates rerum totam odio. Nam, dolorum! -->
-                        <!-- </p>
-                        <img src="images/1.jpg" alt="" class="test-img1">
-                        <p> -->
+                            EGM is applied to the minimization of the parasitic net drag power of the multi-input fluidic pinball problem. 
+                            It yields a slightly asymmetric boat-tailing actuation with 29 % net drag power reduction 
+                            comprising 52 % drag reduction penalized by 23 % actuation energy.
+                        </p>
+                        <h3 class="title">
+                            Ahmed body
+                        </h3>
+                        <img src="images/ahmed_EGM.png">
+                        <p>
+                            EGM reduces the drag of an 35 ◦ slanted Ahmed body by 17% 
+                            with independent steady blowing at all trailing edges at Reynolds number \(Re_H = 1.9 * 10^5\). 
+                            The 10-dimensional actuation space includes 5 symmetric jet slot actuator groups
+                            with variable velocity and variable blowing angle. 
+                            The resulting drag is computed with a Reynolds-Averaged Navier-Stokes (RANS) simulation
+                            and verified with Large Eddy Simulation (LES).
                         </p>
                     </div>
                 </div>
@@ -66,5 +115,6 @@
         </div>
     </footer>
 </center>
+
 </body>
 </html>

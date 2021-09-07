@@ -136,7 +136,20 @@ table {
     border-spacing: 0;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+a:link {
+    /* color: green; */
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+
+span {
+
+    font-style: italic;
+    
+    }
+/* a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+    } */
