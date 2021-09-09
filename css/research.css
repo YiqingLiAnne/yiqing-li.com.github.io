@@ -36,3 +36,49 @@ article .main .content .items img{
     width:60%;
     margin: 10px 20%;
 }
+
+article .main .subcontent{
+  border-top: 2px solid rgb(212, 208, 208);
+}
+
+article .main .subcontent h1{
+  font-weight: bold;
+  text-align: center;
+}
+
+article .main .subcontent p{
+  margin: 10px;
+  padding:10px;
+}
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 30px; /* 8px 8px; */
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50% 20%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Content */
+.content {
+    text-align: center;
+    padding-bottom: 8px;
+  /*border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19); */
+  }
+  

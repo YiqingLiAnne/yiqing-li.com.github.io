@@ -136,20 +136,32 @@ table {
     border-spacing: 0;
 }
 
-a:link {
-    /* color: green; */
-    background-color: transparent;
-    text-decoration: underline;
-    }
-
-
 span {
 
     font-style: italic;
     
-    }
-/* a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: underline;
-    } */
+}
+
+
+a {
+    color: inherit; 
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
+  }
+  
+  a:hover {
+    color: deepskyblue;
+  }
+  
+  a img {
+    display: block;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  }
+  
+  #naked a {
+    padding-bottom: none;
+    border-bottom: none;
+  }
+  

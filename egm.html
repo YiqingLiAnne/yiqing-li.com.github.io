@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/research.css">
+    <title>Li Yiqing</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+<center>
+    <header class="page-header" id="naked">
+        <nav class="page-nav clearfix">
+            <a href="index.html" class="ruibao"> Yiqing Li </a>
+            <a href="publications.html" class="nav"> Publications </a>
+            <a href="research.html" class="nav"> Research </a>
+            <a href="index.html" class="nav"> Home </a>
+        </nav>
+    </header>
+
+    <article class="page-body clearfix">
+        <div class="main">
+            <div class="row">
+                <div class="column">
+                  <div class="content">
+                    <a href="egm.html"> <img src="/images/minima.png" style="height: 500px;" >
+                    Optimization methodology </a>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <a href="config.html"> <img src="/images/EGM_logo.jpg" style="height: 500px; opacity:0.2">
+                    Turbulence control </a>
+                  </div>    
+                </div>
+            </div>
+
+            <div class="subcontent">    
+                <br>    
+                <h1><span>Explorative Gradient Method (EGM)</span> --- a solution to high-dimensional parameter space</h1>
+                <br>
+                <img src="/images/EGM.png" style="width: 300px; margin:0px 400px" alt=""><br>
+                <p>
+                    This method is developed by <a href="https://yiqing-li.com/" target="_blank">Yiqing Li</a> and friends.                                                  
+                    A distinguishing feature of EGM 
+                    is that it performs an ‘aggressive’ exploitation in one step (the solid lines)
+                    and the arguably most optimal exploration in another step (the dash lines). 
+                    See <a href="https://arxiv.org/abs/1905.12036" target="_blank">
+                    arXiv:1905.12036</a> for more details.
+                </p>
+                <br>
+                <h1><span>gradient-enriched Machine Learning Control (gMLC)</span> --- a solution to MIMO control law space</h1>
+                <br>
+                <img src="/images/gMLC.png" style="width: 450px; margin:0px 350px">
+                <p>
+                    This method is developed by 
+                    <a href="https://www.cornejomaceda.com/" target="_blank">Guy Y. Cornejo Maceda</a>, 
+                    <a href="https://yiqing-li.com/" target="_blank">Yiqing Li</a> and friends. 
+                    The key idea of EGM is extended to the function space.
+                    In the proposed gradient-enriched MLC,
+                    the exploitation in MLC is accelerated by downhill subplex iteration. 
+                    See <a href="https://doi.org/10.1017/jfm.2021.301" target="_blank">
+                        Journal of Fluid Mechanics, 917, A42</a> for more details.
+                </p>
+                <br>
+                <h1><span>Bayesian optimization (BO)</span> --- a solution to design and optimization of black-box functions</h1>
+                <p>
+                    <a href="https://ablanchard.mit.edu/" target="_blank">Antoine Blanchard</a> 
+                    and <a href="https://sandlab.mit.edu/index.php/people/11-web-articles/46-themistoklis-sapsis" target="_blank">Themis Sapsis</a>
+                    develop new criteria that guide the algorithm towards highly anomalous—and therefore highly relevant—regions of the search space. 
+                    See <a href="https://www.sciencedirect.com/science/article/pii/S0021999120306756" target="_blank">
+                        Journal of Computational Physics 425, 109901 (2021)</a> for more details.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <footer class="clearfix">
+        <div class="information">
+            <h2 class="name"> @ <a href="https://yiqing-li.com/">Li Yiqing</a></h2>
+            <!-- <ul class="connect">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+            </ul> -->
+        </div>
+    </footer>
+</center>
+
+</body>
+</html>

@@ -42,6 +42,17 @@ article .sidebar li{
     /* padding: 20px; */
 }
 
+/* article .sidebar a {
+    color: inherit; 
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
+  }
+  
+article .sidebar a:hover {
+    color: deepskyblue;
+  } */
+
 article .main{
     float:right;
     width: 750px;
@@ -81,3 +92,4 @@ article .main li{
     padding:10px;
     list-style-type: circle;
 }
+
